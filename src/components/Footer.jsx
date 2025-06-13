@@ -31,7 +31,7 @@ const Footer = () => {
   }, []);
 
   return (
-    <div className='bg-[#004E98] text-white px-6 py-8 w-full mt-auto'>
+    <div className='bg-gray-800 text-white px-6 py-8 w-full mt-auto'>
       <div className='grid grid-cols-1 md:grid-cols-4 gap-8 max-w-6xl mx-auto'>
         {/* CONTACT US */}
         <div>
@@ -121,7 +121,7 @@ const Footer = () => {
             <img 
               src={Logo} 
               alt="Smart City Trivandrum Logo" 
-              className='max-w-[180px] opacity-90 hover:opacity-100 transition-opacity' 
+              className='bg-white max-w-[240px] opacity-90 hover:opacity-100 transition-opacity' 
             />
           </div>
         </div>
